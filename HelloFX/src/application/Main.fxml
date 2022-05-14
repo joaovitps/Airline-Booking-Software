@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: DarkSlateBlue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button fx:id="loginButton" alignment="CENTER" cache="true" layoutX="295.0" layoutY="351.0" mnemonicParsing="false" onAction="#switchToLogged" prefHeight="40.0" prefWidth="98.0" style="-fx-background-color: 0;" text="Login" textFill="AQUAMARINE">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <TextField layoutX="273.0" layoutY="231.0" prefWidth="149.0" />
+      <PasswordField layoutX="273.0" layoutY="300.0" />
+      <Text fill="AQUAMARINE" layoutX="277.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User" />
+      <Text fill="#80ffd2" layoutX="276.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text layoutX="302.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ABS" wrappingWidth="91.95117038488388">
+         <font>
+            <Font name="Monotype Corsiva" size="48.0" />
+         </font>
+      </Text>
+      <Ellipse fill="#483d8b1f" layoutX="344.0" layoutY="182.0" radiusX="36.0" radiusY="72.0" rotate="70.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="346.0" AnchorPane.leftAnchor="308.0" AnchorPane.rightAnchor="320.0" AnchorPane.topAnchor="110.0" />
+      <Button fx:id="cadastroButton" layoutX="340.0" layoutY="391.0" mnemonicParsing="false" onAction="#switchToCadastro" style="-fx-background-color: 0;" text="Cadastre-se" textFill="AQUAMARINE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
